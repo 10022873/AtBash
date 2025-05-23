@@ -1,0 +1,35 @@
+#include "Ong.h"
+#include <sstream>
+#include <cctype>
+
+// Default Constructor
+Ong::Ong() : Cipher() {}
+
+// Overloaded Constructor
+Ong::Ong(string message, bool isEncrypted) : Cipher(message, isEncrypted) {}
+
+// Destructor
+Ong::~Ong() {}
+
+// Helper function to check if character is punctuation
+bool Ong::IsPunct(char c) {
+    return ispunct(static_cast<unsigned char>(c));
+}
+
+bool Ong::IsVowel(char c) {
+    c = tolower(c);
+    return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || 
+            c == ' ' || IsPunct(c));
+}
+
+// Encrypt function
+void Ong::Encrypt() {
+    if (GetIsEncrypted()) {
+        return; // Already encrypted
+    }
+
+    string message = GetMessage();
+    string encrypted;
+
+    for (char c : message) {
+        if (IsVowel(c)) {

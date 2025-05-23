@@ -1,0 +1,48 @@
+#include "Cipher.h"
+
+// Default Constructor
+Cipher::Cipher() {
+    m_message = "";
+    m_isEncrypted = false;
+}
+
+// Overloaded Constructor
+Cipher::Cipher(string message, bool isEncrypted) {
+    m_message = message;
+    m_isEncrypted = isEncrypted;
+}
+
+// Destructor
+Cipher::~Cipher() {
+    // Base class destructor is empty since there's no dynamic memory to clean up
+    // Derived classes will implement their own destructors if needed
+}
+
+// Returns the message
+string Cipher::GetMessage() {
+    return m_message;
+}
+
+// Returns whether the message is encrypted
+bool Cipher::GetIsEncrypted() {
+    return m_isEncrypted;
+}
+
+// Updates the message
+void Cipher::SetMessage(string message) {
+    m_message = message;
+}
+
+// Toggles the encryption status
+void Cipher::ToggleEncrypted() {
+  if(m_isEncrypted == true){
+    m_isEncrypted = false;
+      } else if(m_isEncrypted == false) {
+    m_isEncrypted = true;
+  }
+}
+// Overloaded << operator to output the message
+ostream &operator<<(ostream &output, Cipher &C) {
+    output << C.m_message;
+    return output;
+}

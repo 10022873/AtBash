@@ -1,0 +1,84 @@
+Welcome to UMBC Encryption
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+1
+1. Do what you can, with what you have, where you are. (Theodore Roosevelt)(Scytale)
+
+2. If you cannot do great things, do small things in a great way. (Napoleon Hill)(Scytale)
+
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+2
+2 ciphers Encrypted
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+1
+1. Dau,ht ,ru.eestot    h e  o e)  cwwyaw a(dRvXwyaihovhyrTooeXhontaueeoehrolX(Scytale)
+
+2. Iunoai mtsaayaolf o tndah  t.pnl ctg goliig  o )ya rts lnnrw(lHXondeh,s g eaNeiX(Scytale)
+
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+3
+2 ciphers Decrypted
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+1
+1. Do what you can, with what you have, where you are. (Theodore Roosevelt)(Scytale)
+
+2. If you cannot do great things, do small things in a great way. (Napoleon Hill)(Scytale)
+
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+4
+What would you like to call the export file?
+proj4_data2_output.txt
+2 ciphers exported
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+0
+Invalid input. Please enter a valid value
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+6
+Invalid input. Please enter a valid value
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+5
+Thanks for using UMBC Encryption

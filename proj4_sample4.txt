@@ -1,0 +1,108 @@
+Welcome to UMBC Encryption
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+1
+1. If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough. (Oprah Winfrey)(Atbash)
+
+2. Uli vevib nrmfgv blf ziv zmtib blf olhv hrcgb hvxlmwh lu szkkrmvhh. (Izoks Dzowl Vnvihlm)(Atbash)
+
+3. The greatest glory in living lies not in never falling, but in rising every time we fall. (Nelson Mandela)(Scytale)
+
+4. LehleoleLehleole(baeo ei ui.i ei uo.B ryvt fy v vt fy v oMl)(Scytale)
+
+5. We cannot always build the future of our youth, but we can build our youth for the future. (Franklin D. Roosevelt)(Ong)
+
+6. Pong-e-a-cong-e bong-e-gong-i-nong-song wong-i-tong-hong a song-mong-i-long-e. (-Mong-o-tong-hong-e-rong Tong-e-rong-e-song-a)(Ong)
+
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+2
+3 ciphers Encrypted
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+1
+1. Ru blf ollp zg dszg blf szev rm oruv, blf'oo zodzbh szev nliv. Ru blf ollp zg dszg blf wlm'g szev rm oruv, blf'oo mvevi szev vmlfts. (Lkizs Drmuivb)(Atbash)
+
+2. Uli vevib nrmfgv blf ziv zmtib blf olhv hrcgb hvxlmwh lu szkkrmvhh. (Izoks Dzowl Vnvihlm)(Atbash)
+
+3. Tgt rnv st eanbiiget f.ennahregy il  nrlguns riwa l d)eesl lninie l,t ieymel(sMeX atoiigeonvfi  rnv e lNoalX(Scytale)
+
+4. LehleoleLehleole(baeo ei ui.i ei uo.B ryvt fy v vt fy v oMl)(Scytale)
+
+5. Wong-e cong-a-nong-nong-o-tong a-long-wong-a-yong-song bong-u-i-long-dong tong-hong-e fong-u-tong-u-rong-e o-fong o-u-rong yong-o-u-tong-hong, bong-u-tong wong-e cong-a-nong bong-u-i-long-dong o-u-rong yong-o-u-tong-hong fong-o-rong tong-hong-e fong-u-tong-u-rong-e. (-Fong-rong-a-nong-kong-long-i-nong Dong. Rong-o-o-song-e-vong-e-long-tong)(Ong)
+
+6. Pong-e-a-cong-e bong-e-gong-i-nong-song wong-i-tong-hong a song-mong-i-long-e. (-Mong-o-tong-hong-e-rong Tong-e-rong-e-song-a)(Ong)
+
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+3
+6 ciphers Decrypted
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+1
+1. If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough. (Oprah Winfrey)(Atbash)
+
+2. For every minute you are angry you lose sixty seconds of happiness. (Ralph Waldo Emerson)(Atbash)
+
+3. The greatest glory in living lies not in never falling, but in rising every time we fall. (Nelson Mandela)(Scytale)
+
+4. Love the life you live. Live the life you love. (Bob Marley)(Scytale)
+
+5. We cannot always build the future of our youth, but we can build our youth for the future. (Franklin D. Roosevelt)(Ong)
+
+6. Peace begins with a smile. (Mother Teresa)(Ong)
+
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+4
+What would you like to call the export file?
+proj4_data4_output.txt
+6 ciphers exported
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+0
+Invalid input. Please enter a valid value
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+6
+Invalid input. Please enter a valid value
+What would you like to do?
+1. Display All Ciphers
+2. Encrypt All Ciphers
+3. Decrypt All Ciphers
+4. Export All Ciphers
+5. Quit
+5
+Thanks for using UMBC Encryption

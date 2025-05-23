@@ -1,0 +1,86 @@
+#include "Scytale.h"
+#include <sstream>
+#include <vector>
+
+
+Scytale::Scytale() : m_key(0) {} 
+
+Scytale::Scytale(string msg, bool encrypted, int key) : m_key(key) {
+    SetMessage(msg);
+    if (encrypted) ToggleEncrypted();
+}
+
+Scytale::~Scytale() {}
+
+void Scytale::Encrypt() {
+    if (GetIsEncrypted()) {
+        return;
+    }
+
+    string msg = GetMessage();
+    string encrypted;
+    string msgNoSpaces;
+    
+    // Manual space removal with basic comparison
+    for (size_t i = 0; i < msg.length(); i++) {
+        char c = msg[i];
+        if (c != ' ') {  // Simple space character check
+            msgNoSpaces += c;
+        }
+    }
+    
+    msg = msgNoSpaces;
+    size_t key = static_cast<size_t>(m_key);
+    size_t len = msg.length();
+    size_t rows = (len + key - 1) / key;
+    
+    for (size_t col = 0; col < key; col++) {
+        for (size_t row = 0; row < rows; row++) {
+            size_t index = row * key + col;
+            if (index < len) {
+                encrypted += msg[index];
+            }
+        }
+    }
+
+    SetMessage(encrypted);
+    ToggleEncrypted();
+}
+
+void Scytale::Decrypt() {
+    if (!GetIsEncrypted()) {
+        return;
+    }
+
+    string msg = GetMessage();
+    string decrypted;
+    size_t key = static_cast<size_t>(m_key);
+    size_t len = msg.length();
+    size_t rows = (len + key - 1) / key;
+    
+    decrypted.resize(len);
+    size_t index = 0;
+    
+    for (size_t col = 0; col < key && index < len; col++) {
+        for (size_t row = 0; row < rows && index < len; row++) {
+            size_t pos = row * key + col;
+            if (pos < len) {
+                decrypted[pos] = msg[index++];
+            }
+        }
+    }
+
+    SetMessage(decrypted);
+    ToggleEncrypted();
+}
+
+
+
+string Scytale::ToString() { return "Scytale"; }
+
+string Scytale::FormatOutput() {
+    stringstream ss;
+    ss << "r" << DELIMITER << GetIsEncrypted() << DELIMITER 
+       << GetMessage() << DELIMITER << m_key << DELIMITER;
+    return ss.str();
+}

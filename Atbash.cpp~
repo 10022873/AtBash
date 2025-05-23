@@ -1,0 +1,80 @@
+#include "Atbash.h"
+#include <sstream>
+
+// Default Constructor
+Atbash::Atbash() : Cipher() {}
+
+// Overloaded Constructor
+Atbash::Atbash(string message, bool isEncrypted) : Cipher(message, isEncrypted) {}
+
+// Destructor
+Atbash::~Atbash() {
+    // Nothing specific to clean up for Atbash
+}
+
+// Encrypt function (same as decrypt for Atbash)
+void Atbash::Encrypt() {
+    if (GetIsEncrypted() == true) {
+        return; // Already encrypted
+    }
+    string message = GetMessage();
+    string result;
+    for (char c : message) {
+        if (c >= 'A' && c <= 'Z') {
+            char encrypted = 'Z' - (c - 'A');
+            result += encrypted;
+        } 
+        else if (c >= 'a' && c <= 'z') {
+            char encrypted = 'z' - (c - 'a');
+            result += encrypted;
+        } 
+        else {
+            result += c; // Leave non-alphabetic characters unchanged
+        }
+    }
+    SetMessage(result);
+    if (!GetIsEncrypted()) {
+        ToggleEncrypted();
+    }
+}
+
+// Decrypt function (same as encrypt for Atbash)
+void Atbash::Decrypt() {
+    if (GetIsEncrypted() == false) {
+      cout << "This is already decrypted" << endl;
+        return; // Already decrypted
+    }
+    
+    // Since Atbash is its own inverse, decryption is the same as encryption
+    string message = GetMessage();
+    string result;
+    for (char c : message) {
+        if (c >= 'A' && c <= 'Z') {
+            char decrypted = 'Z' - (c - 'A');
+            result += decrypted;
+        } 
+        else if (c >= 'a' && c <= 'z') {
+            char decrypted = 'z' - (c - 'a');
+            result += decrypted;
+        } 
+        else {
+            result += c; // Leave non-alphabetic characters unchanged
+        }
+    }
+    SetMessage(result);
+    if (GetIsEncrypted()) {
+        ToggleEncrypted();
+    }
+}
+
+// Returns the type of cipher
+string Atbash::ToString() {
+    return "Atbash";
+}
+
+// Formats the output for file writing
+string Atbash::FormatOutput() {
+    stringstream ss;
+    ss << "a" << DELIMITER << (GetIsEncrypted() ? 1 : 0) << DELIMITER << GetMessage();
+    return ss.str();
+}
